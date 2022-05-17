@@ -1,0 +1,42 @@
+{
+    "$schema": "https://gitlab.com/kicad/code/kicad/-/raw/master/kicad/pcm/schemas/pcm.v1.schema.json#",
+    "name": "Test package",
+    "description": "Test package description",
+    "description_full": "full test package description",
+    "identifier": "testpackage",
+    "type": "plugin",
+    "author": {
+        "name": "John Doe",
+        "contact": {
+            "email": "mail@example.org"
+        }
+    },
+    "license": "MIT",
+    "resources": {
+        "Github": "https://github.com/example/test_package"
+    },
+    "tags": [
+        "tag1"
+    ],
+    "versions": [{
+            "version": "2.0",
+            "status": "development",
+            "kicad_version": "5.1",
+            "download_url": "https://example.org/2",
+            "download_sha256": "3c9b88bec22fb14db4c94230e61b27aa5e4175f58cf75a4ef3c2abab7a562440",
+            "download_size": 3280,
+            "install_size": 2930,
+            "platforms": ["linux", "macos", "windows"]
+        },
+        {
+            "version": "1.0",
+            "status": "development",
+            "kicad_version": "5.1",
+            "download_url": "https://example.org",
+            "download_sha256": "3c9b88bec22fb14db4c94230e61b27aa5e4175f58cf75a4ef3c2abab7a562440",
+            "download_size": 1234,
+            "install_size": 2314,
+            "platforms": ["linux", "macos", "windows"]
+        }
+    ]
+}

@@ -1,0 +1,13 @@
+{
+    "name": "Test PCM repository for ci job",
+    "packages": {
+        "url": "",
+        "sha256": "",
+        "update_timestamp": 0
+    },
+    "resources": {
+        "url": "",
+        "sha256": "",
+        "update_timestamp": 0
+    }
+}
