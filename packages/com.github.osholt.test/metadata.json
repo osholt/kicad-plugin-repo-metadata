@@ -37,7 +37,7 @@
             "download_size": 3762,
             "download_url": "https://github.com/osholt/kicad-test-plugin/releases/download/v0.0.1/Archive.zip",
             "install_size": 3387
-        }
+        },
         {
             "version": "test",
             "status": "stable",
